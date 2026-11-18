@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Rajveer & Saurin are getting married · 28–29 January 2027 · Ahmedabad">
+<meta property="og:title" content="Rajveer & Saurin · Wedding Invitation">
+<meta property="og:description" content="Haldi, Sangeet & Jaggo, Anand Karaj and Reception · 28–29 January 2027 · Ahmedabad">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#14261F">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rajveer & Saurin · Wedding Invitation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cinzel:wght@400;500&family=Noto+Serif+Gurmukhi:wght@400&display=swap">
+<style>
+:root{ --ground:#14261F; --panel:#1B3229; --gold:#C9A96E; --text:#F4EDE1; --soft:#CDC3B2; --line:rgba(201,169,110,.45); --tk:#F7F1E5; --tkink:#1E3329; --tkacc:#8A6A33; --tksoft:#55605A; --bub:#1D352B; --me:#C9A96E; --meink:#14261F; color-scheme:dark; box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px) }
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --ground:#14261F; --text:#F4EDE1 } }
+:root[data-theme="dark"]{ --ground:#14261F; --text:#F4EDE1 }
+html{scroll-padding-top:env(safe-area-inset-top,0px); height:100%}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0; min-height:100%; background:var(--ground); color:var(--text); font-family:'Cormorant Garamond','Times New Roman',Georgia,serif; -webkit-font-smoothing:antialiased}
+a:focus-visible,button:focus-visible{outline:2px solid var(--gold); outline-offset:4px}
+.onk{font-family:'Noto Serif Gurmukhi',serif; line-height:1; color:var(--gold)}
+.venue{color:inherit; text-decoration:underline; text-decoration-color:var(--gold); text-underline-offset:4px; text-decoration-thickness:1px}
+.venue:hover{color:var(--gold)}
+.actions{margin-top:18px; display:flex; flex-wrap:wrap; justify-content:center; gap:10px}
+.actions a{min-height:44px; display:inline-flex; align-items:center; padding:0 18px; border:1px solid var(--gold); color:inherit; text-decoration:none; font-size:1.05rem; letter-spacing:.03em; transition:background .25s,color .25s}
+.actions a:hover{background:var(--gold); color:var(--ground)}
+.clock{display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; max-width:440px; margin:0 auto}
+.clock div{border:1px solid var(--line); padding:14px 4px 10px; text-align:center}
+.clock b{display:block; font-weight:500; font-size:clamp(1.9rem,8vw,2.7rem); line-height:1; font-variant-numeric:lining-nums tabular-nums}
+.clock span{display:block; margin-top:8px; font-size:.95rem; font-style:italic; color:var(--soft)}
+.rule{width:110px; height:1px; background:var(--gold); margin:0 auto}
+
+html,body{height:100%}
+.app{max-width:560px; margin:0 auto; min-height:100%; display:flex; flex-direction:column}
+.bar{position:sticky; top:env(safe-area-inset-top,0px); z-index:5; display:flex; align-items:center; gap:14px; padding:14px 18px; background:var(--ground); border-bottom:1px solid var(--line)}
+body::before{content:""; position:fixed; inset:0 0 auto; height:env(safe-area-inset-top,0px); z-index:10; background:var(--ground)}
+.av{width:48px; height:48px; flex:none; border-radius:50%; border:1px solid var(--gold); display:flex; align-items:center; justify-content:center; font-style:italic; font-size:1.2rem; color:var(--gold)}
+.who b{display:block; font-weight:600; font-size:1.25rem; letter-spacing:.04em}
+.who span{font-style:italic; color:var(--soft); font-size:1rem}
+.skip{margin-left:auto; min-height:44px; background:none; border:0; color:var(--soft); font:inherit; font-style:italic; font-size:1rem; text-decoration:underline; text-underline-offset:4px; cursor:pointer}
+.log{flex:1; padding:22px 16px 40px; display:flex; flex-direction:column; gap:10px}
+.sys{align-self:center; text-align:center; margin:4px 0 12px; font-size:.85rem; letter-spacing:.18em; text-transform:uppercase; color:var(--gold)}
+.sys .onk{display:block; font-size:2.2rem; margin-bottom:8px; letter-spacing:0}
+.msg{max-width:84%; padding:12px 16px; background:var(--bub); border:1px solid var(--line); border-radius:4px 18px 18px 18px; font-size:1.2rem; line-height:1.45; animation:pop .45s ease both}
+.msg.big{font-size:1.5rem}
+.msg.big b{display:block; margin-top:4px; font-weight:500; font-size:clamp(1.9rem,8vw,2.5rem); letter-spacing:.12em; text-transform:uppercase; line-height:1.15}
+.msg.card{width:84%; text-align:center; padding:18px 14px}
+.msg.card h3{margin:0; font-size:1.35rem; font-weight:600; letter-spacing:.22em; text-transform:uppercase; color:var(--gold)}
+.msg.card p{margin:8px 0 0; font-style:italic; font-size:1.1rem}
+.msg.card .actions{margin-top:14px} .msg.card .actions a{font-size:1rem; padding:0 14px}
+.msg.clockmsg{width:84%}
+.msg.clockmsg p{margin:0 0 12px; font-style:italic}
+.me{align-self:flex-end; background:var(--me); color:var(--meink); border:0; border-radius:18px 4px 18px 18px}
+.typing{display:inline-flex; gap:5px; padding:14px 16px; background:var(--bub); border-radius:4px 18px 18px 18px; width:max-content}
+.typing i{width:7px; height:7px; border-radius:50%; background:var(--soft); animation:blink 1s infinite} .typing i:nth-child(2){animation-delay:.15s} .typing i:nth-child(3){animation-delay:.3s}
+@keyframes blink{0%,100%{opacity:.25}50%{opacity:1}}
+@keyframes pop{from{opacity:0; transform:translateY(8px)}to{opacity:1; transform:none}}
+.chips{align-self:flex-end; display:flex; flex-wrap:wrap; justify-content:flex-end; gap:8px; margin-top:6px}
+.chips button{min-height:44px; padding:0 18px; border:1px solid var(--gold); border-radius:22px; background:none; color:var(--text); font:inherit; font-size:1.1rem; cursor:pointer}
+.chips button:hover{background:var(--gold); color:var(--meink)}
+.msg[hidden],.chips[hidden]{display:none}
+@media (prefers-reduced-motion: reduce){*,*::before,*::after{transition-duration:.01ms !important; transition-delay:0s !important; animation-duration:.01ms !important; animation-iteration-count:1 !important}}
+</style>
+</head>
+<body>
+<div class="app">
+<header class="bar"><div class="av" aria-hidden="true">R&amp;S</div><div class="who"><b>Rajveer &amp; Saurin</b><span id="status">online</span></div><button class="skip" id="skip">Show all</button></header>
+<div class="log" id="log" aria-live="polite">
+<p class="sys"><span class="onk" aria-hidden="true">ੴ</span>With the blessings of Waheguru</p>
+<div class="msg" hidden>Hello! We have some happy news to share with you</div>
+<div class="msg big" hidden>We’re getting married<b>Rajveer &amp; Saurin</b></div>
+<div class="msg" hidden>Together with our families, we request the pleasure of your company in Ahmedabad</div>
+<div class="msg" hidden>Here are the celebrations</div>
+<div class="msg card" hidden><h3>Haldi</h3><p>28 Jan 2027, Thursday, 10 am, <a class="venue" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Shreeji%20Green%20Farm%2C%204HH9%2B4V8%2C%20Tragad%2C%20Ahmedabad%2C%20Gujarat%20382424">Shreeji Green Farm</a></p><div class="actions"><a target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Haldi%20%E2%80%93%20Rajveer%20%26%20Saurin&amp;dates=20270128T043000Z/20270128T073000Z&amp;location=Shreeji%20Green%20Farm%2C%204HH9%2B4V8%2C%20Tragad%2C%20Ahmedabad%2C%20Gujarat%20382424">Add to calendar</a><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Shreeji%20Green%20Farm%2C%204HH9%2B4V8%2C%20Tragad%2C%20Ahmedabad%2C%20Gujarat%20382424">Get directions</a></div></div><div class="msg card" hidden><h3>Sangeet &amp; Jaggo</h3><p>28 Jan 2027, Thursday, 7:30 pm, <a class="venue" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Shreeji%20Green%20Farm%2C%204HH9%2B4V8%2C%20Tragad%2C%20Ahmedabad%2C%20Gujarat%20382424">Shreeji Green Farm</a></p><div class="actions"><a target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Sangeet%20%26%20Jaggo%20%E2%80%93%20Rajveer%20%26%20Saurin&amp;dates=20270128T140000Z/20270128T180000Z&amp;location=Shreeji%20Green%20Farm%2C%204HH9%2B4V8%2C%20Tragad%2C%20Ahmedabad%2C%20Gujarat%20382424">Add to calendar</a><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Shreeji%20Green%20Farm%2C%204HH9%2B4V8%2C%20Tragad%2C%20Ahmedabad%2C%20Gujarat%20382424">Get directions</a></div></div><div class="msg card" hidden><h3>Anand Karaj</h3><p>29 Jan 2027, Friday, 10 am, <a class="venue" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Gurdwara%20Gobind%20Dham%2C%20Thaltej%2C%20Ahmedabad%2C%20Sarkhej%20-%20Gandhinagar%20Hwy%2C%20near%20Gurudwara%2C%20Thaltej%2C%20Ahmedabad%2C%20Gujarat%20380059">Gurudwara Govindham</a></p><div class="actions"><a target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Anand%20Karaj%20%E2%80%93%20Rajveer%20%26%20Saurin&amp;dates=20270129T043000Z/20270129T073000Z&amp;location=Gurdwara%20Gobind%20Dham%2C%20Thaltej%2C%20Ahmedabad%2C%20Sarkhej%20-%20Gandhinagar%20Hwy%2C%20near%20Gurudwara%2C%20Thaltej%2C%20Ahmedabad%2C%20Gujarat%20380059">Add to calendar</a><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Gurdwara%20Gobind%20Dham%2C%20Thaltej%2C%20Ahmedabad%2C%20Sarkhej%20-%20Gandhinagar%20Hwy%2C%20near%20Gurudwara%2C%20Thaltej%2C%20Ahmedabad%2C%20Gujarat%20380059">Get directions</a></div></div><div class="msg card" hidden><h3>Reception</h3><p>29 Jan 2027, Friday, 7:30 pm, <a class="venue" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Shreeji%20Green%20Farm%2C%204HH9%2B4V8%2C%20Tragad%2C%20Ahmedabad%2C%20Gujarat%20382424">Shreeji Green Farm</a></p><div class="actions"><a target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Reception%20%E2%80%93%20Rajveer%20%26%20Saurin&amp;dates=20270129T140000Z/20270129T180000Z&amp;location=Shreeji%20Green%20Farm%2C%204HH9%2B4V8%2C%20Tragad%2C%20Ahmedabad%2C%20Gujarat%20382424">Add to calendar</a><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Shreeji%20Green%20Farm%2C%204HH9%2B4V8%2C%20Tragad%2C%20Ahmedabad%2C%20Gujarat%20382424">Get directions</a></div></div>
+<div class="msg clockmsg" hidden><p>Counting down to the Anand Karaj</p><div class="clock" id="clock"><div><b id="d">–</b><span>days</span></div><div><b id="h">–</b><span>hours</span></div><div><b id="m">–</b><span>minutes</span></div><div><b id="s">–</b><span>seconds</span></div></div></div>
+<div class="msg" hidden>Your presence will make our celebration complete</div>
+<div class="msg" hidden>Will you be there?</div>
+<div class="chips" id="chips" hidden><button>I’ll be there!</button><button>Can’t wait!</button></div>
+</div></div>
+<script>
+(function(){var t=Date.UTC(2027,0,29,4,30,0),g=function(i){return document.getElementById(i)},p=function(n){return n<10?'0'+n:''+n};
+function k(){var x=t-Date.now();if(x<=0){g('clock').hidden=true;var c=g('cd-title');if(c)c.textContent='Rajveer & Saurin are married';return}
+var s=Math.floor(x/1000);g('d').textContent=Math.floor(s/86400);g('h').textContent=p(Math.floor(s%86400/3600));g('m').textContent=p(Math.floor(s%3600/60));g('s').textContent=p(s%60);setTimeout(k,1000)}k()})();
+(function(){var log=document.getElementById('log'),M=[].slice.call(log.querySelectorAll('.msg')),chips=document.getElementById('chips'),st=document.getElementById('status'),i=0,timer,typ=null,
+rm=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+function bottom(){window.scrollTo({top:document.body.scrollHeight,behavior:rm?'auto':'smooth'})}
+function showAll(){clearTimeout(timer);if(typ){typ.remove();typ=null}M.forEach(function(m){m.hidden=false});chips.hidden=false;st.textContent='online';document.getElementById('skip').hidden=true;i=M.length;bottom()}
+function next(){if(i>=M.length){chips.hidden=false;st.textContent='online';document.getElementById('skip').hidden=true;bottom();return}
+typ=document.createElement('div');typ.className='typing';typ.innerHTML='<i></i><i></i><i></i>';typ.setAttribute('aria-hidden','true');log.insertBefore(typ,M[i]);st.textContent='typing…';bottom();
+timer=setTimeout(function(){typ.remove();typ=null;M[i].hidden=false;i++;bottom();timer=setTimeout(next,450)},M[i].classList.contains('card')?700:1000)}
+document.getElementById('skip').addEventListener('click',showAll);
+[].forEach.call(chips.querySelectorAll('button'),function(b){b.addEventListener('click',function(){chips.hidden=true;var me=document.createElement('div');me.className='msg me';me.textContent=b.textContent;log.appendChild(me);bottom();
+setTimeout(function(){var r=document.createElement('div');r.className='msg';r.textContent='Wonderful! We can’t wait to celebrate with you in Ahmedabad';log.appendChild(r);bottom()},rm?0:1100)})});
+if(rm)showAll();else timer=setTimeout(next,600);})();
+</script>
+</body>
+</html>
